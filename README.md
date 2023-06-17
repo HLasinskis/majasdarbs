@@ -1,7 +1,7 @@
-Write a "value shortening" JavaScript function which converts a raw number into an 
-appropriate shortened number and shortened unit, and create an appropriate suite of tests 
-verifying this function behaves as expected. For the purpose of this exercise, the function 
-should simply return an object containing the relevant value and valueUnit.
+# Write a "value shortening" JavaScript function which converts a raw number into an 
+# appropriate shortened number and shortened unit, and create an appropriate suite of tests 
+# verifying this function behaves as expected. For the purpose of this exercise, the function 
+# should simply return an object containing the relevant value and valueUnit.
 For example:
 • shortening(10000) should return { value: 10, valueUnit: "K" }
 • shortening(100000000) should return { value: 100, valueUnit: "M" }
